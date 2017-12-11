@@ -1,5 +1,3 @@
-
-<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8">
@@ -9,6 +7,7 @@
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.bootcss.com/Swiper/4.0.5/css/swiper.css">
 
+    <link rel="stylesheet" href="css/animate.min.css">
     <!-- Demo styles -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -19,20 +18,20 @@
         <div class="swiper-slide">
             <div class="s1">
                 <div class="header">
-                    <img src="img/1.png" alt="">
-                    <img src="img/2.png" alt="">
-                    <img src="img/3.png" alt="">
-                    <img src="img/4.png" alt="">
-                    <img src="img/6.png" alt="">
+                    <img src="img/1.png" alt="" class="ani" swiper-animate-effect="swing" swiper-animate-duration="0.3s" swiper-animate-delay="0.2s">
+                    <img src="img/2.png" alt="" class="ani" swiper-animate-effect="swing" swiper-animate-duration="0.3s" swiper-animate-delay="0.4s">
+                    <img src="img/3.png" alt="" class="ani" swiper-animate-effect="swing" swiper-animate-duration="0.3s" swiper-animate-delay="0.6s">
+                    <img src="img/4.png" alt="" class="ani" swiper-animate-effect="swing" swiper-animate-duration="0.3s" swiper-animate-delay="0.8s">
+                    <img src="img/6.png" alt="" class="ani" swiper-animate-effect="pulse" swiper-animate-duration="0.4s" swiper-animate-delay="1s">
                 </div>
                 <div class="main">
-                    <img src="img/7.png" alt="">
-                    <img src="img/8.png" alt="">
-                    <p class="img9">梦想起航 . 再创辉煌</p>
+                    <img src="img/7.png" alt="" class="ani" swiper-animate-effect="flash" swiper-animate-duration="0.5s" swiper-animate-delay="1.8s">
+                    <img src="img/8.png" alt="" class="ani" swiper-animate-effect="rotateIn" swiper-animate-duration="1s" swiper-animate-delay="0.8s">
+                    <p class="img9 ani" swiper-animate-effect="fadeInUp" swiper-animate-duration="1.8s" swiper-animate-delay="1.8s">梦想起航 . 再创辉煌</p>
                 </div>
                 <div class="footer">
-                    <h2>企业名称</h2>
-                    <p>2018年1月18日 晚8:00-11:00</p>
+                    <h2 class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s">企业名称</h2>
+                    <p class="ani"  swiper-animate-effect="bounceInRight" swiper-animate-duration="1s" swiper-animate-delay="0.8s">2018年1月18日 晚8:00-11:00</p>
                     <p>
                         <img src="img/10.png" alt="">
                         <img src="img/11.png" alt="">
@@ -49,9 +48,21 @@
                 <div class="main">
                     <img src="img/12.png" alt="">
                     <div class="text">
-                        <p>亲爱的同志们</p>
-                        <p>我们成立于成立于，</p>
-                        <p>我们秉着，</p>
+                        <p>亲爱的同志们,大家晚上好</p>
+                        <p>
+                            我们成立于2009年，现在有成员1300多人，
+                        我们专注于移动互联网与信息互动社区领域
+                        “坚持”技术领先，理念领先，管理领先的
+                        发展战略，2015完成公司整体改制。历史为股份有限公司。倾力打造具有自主知识
+                        产权的高端移动分发平台致力于帮助移动互联网用户过移动设备宁受史开放，便捷的
+                        互联网服务。
+                        </p>
+                        <p>
+                            我们秉着“真诚丶团结丶主动丶责任”的企
+                            业文化，立志深圳移动互联网，打造研发和
+                            运营一体的产业链，成为移动互联网行业值
+                            得用户尊敬和信赖的公司。
+                        </p>
                     </div>
                     <span>某某企业</span>
                 </div>
@@ -74,6 +85,9 @@
 
 <!-- Swiper JS -->
 <script src="https://cdn.bootcss.com/Swiper/4.0.5/js/swiper.js"></script>
+
+<!-- animate -->
+<script src="js/swiper.animate1.0.2.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script src="js/script.js"></script>
