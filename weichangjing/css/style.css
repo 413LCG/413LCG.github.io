@@ -541,16 +541,34 @@ body {
     left: 60px;
 }
 .s4 .text2 p{
-    font-size: 16px;
-}
+     font-size: 16px;
+ }
 .s4 .text2{
     width: 200px;
     position: absolute;
     top: 260px;
     left: 60px;
+    margin-top: 6px;
+}
+.s4 .text3 p{
+    font-size: 16px;
+}
+.s4 .text3{
+    width: 200px;
+    position: absolute;
+    top:320px;
+    left: 60px;
+    margin-bottom: 12px;
 }
 .s4 .text1 p{
     font-size: 16px;
+}
+.s4 ul{
+    font-size: 14px;
+    width: 281px;
+    position: absolute;
+    top: 416px;
+    left: 59px;
 }
 /*第六屏的样式*/
 .s6 {
