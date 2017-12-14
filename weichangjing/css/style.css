@@ -540,6 +540,15 @@ body {
     top: 194px;
     left: 60px;
 }
+.s4 .text2 p{
+    font-size: 16px;
+}
+.s4 .text2{
+    width: 200px;
+    position: absolute;
+    top: 260px;
+    left: 60px;
+}
 .s4 .text1 p{
     font-size: 16px;
 }
@@ -591,7 +600,7 @@ body {
     position: relative;
 }
 .s6 .main span{
-
+    background: url("");
     width: 230px;
     height: 25px;
     background-size: cover;
