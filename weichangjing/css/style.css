@@ -29,7 +29,48 @@ body {
     background: #fff;
 
 }
+/*footer*/
+.footer{
+    width:100%;
+    position: absolute;
+    bottom:0;
+}
+.footer .foot{
+    height: 9vh;
+}
 
+.footer p img{
+    width:120%;
+    position: absolute;
+}
+
+.footer p img:nth-of-type(1){
+    left:0;
+    bottom: 6px;
+    animation: footerimg1 2s alternate infinite;
+}
+.footer p img:nth-of-type(2){
+    left:-50px;
+    animation: footerimg 2s alternate infinite;
+
+}
+
+@keyframes footerimg {
+    0%{
+        left:-50px;
+    }
+    100%{
+        left:-10px;
+    }
+}
+@keyframes footerimg1 {
+    0%{
+        left:0;
+    }
+    100%{
+        left:-40px;
+    }
+}
 /*自定义样式  - 开始*/
 
 /*向下翻页的按钮*/
@@ -331,11 +372,6 @@ body {
     font-size: 12px;
     letter-spacing: 5px;
 }
-
-
-.s3{
-    color: #00d7b2;
-}
 .s3 .main span:nth-of-type(1){
     position: absolute;
     top: 45%;
@@ -570,6 +606,84 @@ body {
     top: 416px;
     left: 59px;
 }
+/*第五屏样式*/
+.s5 {
+    color: #00f0c3;
+}
+
+.s5 h2 {
+    padding-top: 10%;
+    font-size: 24px;
+    margin-bottom: 10%;
+}
+
+.s5 h2::before,
+.s5 h2::after {
+    content: "";
+    width: 83px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s5 h2::before {
+    background: url("../img/14.png");
+    background-size: cover;
+    left: 45px;
+    top: 45px;
+}
+
+.s5 h2::after {
+    background: url("../img/13.png");
+    background-size: cover;
+    right: 45px;
+    top: 45px;
+}
+
+.s5 h2 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.s5 .main{
+    margin: 0 5%;
+}
+.s5 .main .user1,.s5 .main .user2,.s5 .main .user3,.s5 .main .user4{
+    width: 50%;
+    float: left;
+    position: relative;
+    margin-bottom: 5%;
+}
+.s5 .main .user1 .user1-img,.s5 .main .user2 .user2-img,.s5 .main .user3 .user3-img,.s5 .main .user4 .user4-img{
+    width: 80%;
+}
+.s5 .main .user1 div,.s5 .main .user2 div,.s5 .main .user3 div,.s5 .main .user4 div{
+    position: absolute;
+    top:0;
+    width: 80%;
+    left:50%;
+    margin-left: -40%;
+    margin-top: 13px;
+}
+.s5 .main .user1 div img,.s5 .main .user2 div img,.s5 .main .user3 div img,.s5 .main .user4 div img{
+    width: 75%;
+}
+.s5 .main .user1 p:nth-of-type(1),.s5 .main .user2 p:nth-of-type(1),.s5 .main .user3 p:nth-of-type(1),.s5 .main .user4 p:nth-of-type(1){
+    font-size: 14px;
+    padding-bottom: 4px;
+}
+.s5 .main .user1 p:nth-of-type(2),.s5 .main .user2 p:nth-of-type(2),.s5 .main .user3 p:nth-of-type(2),.s5 .main .user4 p:nth-of-type(2){
+    background: linear-gradient(to right,#00e7f9, #26f9b2);
+    color: #000;
+    border-radius: 50px;
+    width: 80%;
+    margin: auto;
+    height:20px;
+    font-size: 15px;
+}
+
+
 /*第六屏的样式*/
 .s6 {
     color: #00f0c3;
@@ -617,19 +731,6 @@ body {
     padding-left: 20px;
     position: relative;
 }
-.s6 .main span{
-    background: url("");
-    width: 230px;
-    height: 25px;
-    background-size: cover;
-    display: inline-block;
-    padding-left: 10px;
-    color: #000;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 25px;
-    margin-bottom: 10px;
-}
 .s6 .main div:nth-of-type(1){
     width: 100%;
     height: 80px;
@@ -669,6 +770,19 @@ body {
 .s6 .main img{
     width: 26px;
     height: 26px;
+}
+.s6 .main span{
+    background: url("../img/s6bg.png");
+    width: 230px;
+    height: 25px;
+    background-size: cover;
+    display: inline-block;
+    padding-left: 10px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    margin-bottom: 10px;
 }
 .s6 .main img:nth-of-type(1){
     position: absolute;
